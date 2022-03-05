@@ -1,0 +1,458 @@
+,url,repository_url,labels_url,comments_url,events_url,html_url,id,node_id,number,title,user,labels,state,locked,assignee,assignees,milestone,comments,created_at,updated_at,closed_at,author_association,active_lock_reason,draft,pull_request,body,reactions,timeline_url,performed_via_github_app
+0,https://api.github.com/repos/pandas-dev/pandas/issues/46177,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46177/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46177/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46177/events,https://github.com/pandas-dev/pandas/pull/46177,1153704239,PR_kwDOAA0YD84zpQlY,46177,DOC: Move general utility functions to better locations,"{'login': 'mroeschke', 'id': 10647082, 'node_id': 'MDQ6VXNlcjEwNjQ3MDgy', 'avatar_url': 'https://avatars.githubusercontent.com/u/10647082?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/mroeschke', 'html_url': 'https://github.com/mroeschke', 'followers_url': 'https://api.github.com/users/mroeschke/followers', 'following_url': 'https://api.github.com/users/mroeschke/following{/other_user}', 'gists_url': 'https://api.github.com/users/mroeschke/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/mroeschke/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/mroeschke/subscriptions', 'organizations_url': 'https://api.github.com/users/mroeschke/orgs', 'repos_url': 'https://api.github.com/users/mroeschke/repos', 'events_url': 'https://api.github.com/users/mroeschke/events{/privacy}', 'received_events_url': 'https://api.github.com/users/mroeschke/received_events', 'type': 'User', 'site_admin': False}","[{'id': 134699, 'node_id': 'MDU6TGFiZWwxMzQ2OTk=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs', 'name': 'Docs', 'color': '3465A4', 'default': False, 'description': None}]",open,False,,[],"{'url': 'https://api.github.com/repos/pandas-dev/pandas/milestones/92', 'html_url': 'https://github.com/pandas-dev/pandas/milestone/92', 'labels_url': 'https://api.github.com/repos/pandas-dev/pandas/milestones/92/labels', 'id': 7530006, 'node_id': 'MI_kwDOAA0YD84AcuYW', 'number': 92, 'title': '1.5', 'description': '', 'creator': {'login': 'jreback', 'id': 953992, 'node_id': 'MDQ6VXNlcjk1Mzk5Mg==', 'avatar_url': 'https://avatars.githubusercontent.com/u/953992?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jreback', 'html_url': 'https://github.com/jreback', 'followers_url': 'https://api.github.com/users/jreback/followers', 'following_url': 'https://api.github.com/users/jreback/following{/other_user}', 'gists_url': 'https://api.github.com/users/jreback/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jreback/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jreback/subscriptions', 'organizations_url': 'https://api.github.com/users/jreback/orgs', 'repos_url': 'https://api.github.com/users/jreback/repos', 'events_url': 'https://api.github.com/users/jreback/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jreback/received_events', 'type': 'User', 'site_admin': False}, 'open_issues': 52, 'closed_issues': 401, 'state': 'open', 'created_at': '2021-12-31T21:51:13Z', 'updated_at': '2022-02-28T06:22:11Z', 'due_on': '2022-06-30T07:00:00Z', 'closed_at': None}",0,2022-02-28T06:22:11Z,2022-02-28T06:22:11Z,,MEMBER,,False,"{'url': 'https://api.github.com/repos/pandas-dev/pandas/pulls/46177', 'html_url': 'https://github.com/pandas-dev/pandas/pull/46177', 'diff_url': 'https://github.com/pandas-dev/pandas/pull/46177.diff', 'patch_url': 'https://github.com/pandas-dev/pandas/pull/46177.patch', 'merged_at': None}","- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+
+There was `doc/source/reference/general_functions.rst` and `doc/source/reference/general_utility_functions.rst`
+
+So split `doc/source/reference/general_utility_functions.rst` into appropriate sections
+
+
+","{'url': 'https://api.github.com/repos/pandas-dev/pandas/issues/46177/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}",https://api.github.com/repos/pandas-dev/pandas/issues/46177/timeline,
+1,https://api.github.com/repos/pandas-dev/pandas/issues/46176,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46176/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46176/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46176/events,https://github.com/pandas-dev/pandas/issues/46176,1153565414,I_kwDOAA0YD85EwgLm,46176,getsizeof  usage for memory utilization estimation is incompatible with PyPy,"{'login': 'mach881040', 'id': 100502242, 'node_id': 'U_kgDOBf2K4g', 'avatar_url': 'https://avatars.githubusercontent.com/u/100502242?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/mach881040', 'html_url': 'https://github.com/mach881040', 'followers_url': 'https://api.github.com/users/mach881040/followers', 'following_url': 'https://api.github.com/users/mach881040/following{/other_user}', 'gists_url': 'https://api.github.com/users/mach881040/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/mach881040/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/mach881040/subscriptions', 'organizations_url': 'https://api.github.com/users/mach881040/orgs', 'repos_url': 'https://api.github.com/users/mach881040/repos', 'events_url': 'https://api.github.com/users/mach881040/events{/privacy}', 'received_events_url': 'https://api.github.com/users/mach881040/received_events', 'type': 'User', 'site_admin': False}","[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-28T03:08:49Z,2022-02-28T03:08:49Z,,NONE,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+from sklearn.datasets import fetch_openml
+data = fetch_openml('mnist_784')
+```
+
+
+### Issue Description
+
+PyPy doesn't like this usage of getsizeof:
+
+```
+
+<!--StartFragment-->
+
+---------------------------------------------------------------------------
+--
+  | TypeError                                 Traceback (most recent call last)
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in wrapper(*args, **kw)
+  | 60             try:
+  | ---> 61                 return f(*args, **kw)
+  | 62             except HTTPError:
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _load_arff_response(url, data_home, return_type, encode_nominal, parse_arff, md5_checksum)
+  | 528
+  | --> 529         parsed_arff = parse_arff(arff)
+  | 530
+  |  
+  | ~/mambaforge-pypy3/lib_pypy/_functools.py in __call__(self, *fargs, **fkeywords)
+  | 79             fkeywords = dict(self._keywords, **fkeywords)
+  | ---> 80         return self._func(*(self._args + fargs), **fkeywords)
+  | 81
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _convert_arff_data_dataframe(arff, columns, features_dict)
+  | 353
+  | --> 354     row_bytes = first_df.memory_usage(deep=True).sum()
+  | 355     chunksize = get_chunk_n_rows(row_bytes)
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/frame.py in memory_usage(self, index, deep)
+  | 3223             result = self._constructor_sliced(
+  | -> 3224                 self.index.memory_usage(deep=deep), index=[""Index""]
+  | 3225             ).append(result)
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in memory_usage(self, deep)
+  | 344         """"""
+  | --> 345         return self.nbytes
+  | 346
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/_libs/properties.pyx in pandas._libs.properties.CachedProperty.__get__()
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in nbytes(self)
+  | 316         rng = self._range
+  | --> 317         return getsizeof(rng) + sum(
+  | 318             getsizeof(getattr(rng, attr_name))
+  |  
+  | TypeError: getsizeof(...)
+  | getsizeof(object, default) -> int
+  |  
+  | Return the size of object in bytes.
+  |  
+  | sys.getsizeof(object, default) will always return default on PyPy, and
+  | raise a TypeError if default is not provided.
+  |  
+  | First note that the CPython documentation says that this function may
+  | raise a TypeError, so if you are seeing it, it means that the program
+  | you are using is not correctly handling this case.
+  |  
+  | On PyPy, though, it always raises TypeError.  Before looking for
+  | alternatives, please take a moment to read the following explanation as
+  | to why it is the case.  What you are looking for may not be possible.
+  |  
+  | A memory profiler using this function is most likely to give results
+  | inconsistent with reality on PyPy.  It would be possible to have
+  | sys.getsizeof() return a number (with enough work), but that may or
+  | may not represent how much memory the object uses.  It doesn't even
+  | make really sense to ask how much *one* object uses, in isolation
+  | with the rest of the system.  For example, instances have maps,
+  | which are often shared across many instances; in this case the maps
+  | would probably be ignored by an implementation of sys.getsizeof(),
+  | but their overhead is important in some cases if they are many
+  | instances with unique maps.  Conversely, equal strings may share
+  | their internal string data even if they are different objects---or
+  | empty containers may share parts of their internals as long as they
+  | are empty.  Even stranger, some lists create objects as you read
+  | them; if you try to estimate the size in memory of range(10**6) as
+  | the sum of all items' size, that operation will by itself create one
+  | million integer objects that never existed in the first place.
+  |  
+  |  
+  | During handling of the above exception, another exception occurred:
+  |  
+  | TypeError                                 Traceback (most recent call last)
+  | /tmp/ipykernel_18403/3646006393.py in <module>
+  | ----> 1 data = fetch_openml('mnist_784')
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in fetch_openml(name, version, data_id, data_home, target_column, cache, return_X_y, as_frame)
+  | 965         target_columns=target_columns,
+  | 966         data_columns=data_columns,
+  | --> 967         md5_checksum=data_description[""md5_checksum""],
+  | 968     )
+  | 969
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _download_data_to_bunch(url, sparse, data_home, as_frame, features_list, data_columns, target_columns, shape, md5_checksum)
+  | 659         encode_nominal=not as_frame,
+  | 660         parse_arff=parse_arff,
+  | --> 661         md5_checksum=md5_checksum,
+  | 662     )
+  | 663     X, y, frame, nominal_attributes = postprocess(*out)
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in wrapper(*args, **kw)
+  | 67                 if os.path.exists(local_path):
+  | 68                     os.unlink(local_path)
+  | ---> 69                 return f(*args, **kw)
+  | 70
+  | 71         return wrapper
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _load_arff_response(url, data_home, return_type, encode_nominal, parse_arff, md5_checksum)
+  | 527         )
+  | 528
+  | --> 529         parsed_arff = parse_arff(arff)
+  | 530
+  | 531         # consume remaining stream, if early exited
+  |  
+  | ~/mambaforge-pypy3/lib_pypy/_functools.py in __call__(self, *fargs, **fkeywords)
+  | 78         if self._keywords:
+  | 79             fkeywords = dict(self._keywords, **fkeywords)
+  | ---> 80         return self._func(*(self._args + fargs), **fkeywords)
+  | 81
+  | 82     @_recursive_repr()
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _convert_arff_data_dataframe(arff, columns, features_dict)
+  | 352     first_df = pd.DataFrame([first_row], columns=arff_columns)
+  | 353
+  | --> 354     row_bytes = first_df.memory_usage(deep=True).sum()
+  | 355     chunksize = get_chunk_n_rows(row_bytes)
+  | 356
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/frame.py in memory_usage(self, index, deep)
+  | 3222         if index:
+  | 3223             result = self._constructor_sliced(
+  | -> 3224                 self.index.memory_usage(deep=deep), index=[""Index""]
+  | 3225             ).append(result)
+  | 3226         return result
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in memory_usage(self, deep)
+  | 343         numpy.ndarray.nbytes
+  | 344         """"""
+  | --> 345         return self.nbytes
+  | 346
+  | 347     @property
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/_libs/properties.pyx in pandas._libs.properties.CachedProperty.__get__()
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in nbytes(self)
+  | 315         """"""
+  | 316         rng = self._range
+  | --> 317         return getsizeof(rng) + sum(
+  | 318             getsizeof(getattr(rng, attr_name))
+  | 319             for attr_name in [""start"", ""stop"", ""step""]
+  |  
+  | TypeError: getsizeof(...)
+  | getsizeof(object, default) -> int
+  |  
+  | Return the size of object in bytes.
+  |  
+  | sys.getsizeof(object, default) will always return default on PyPy, and
+  | raise a TypeError if default is not provided.
+  |  
+  | First note that the CPython documentation says that this function may
+  | raise a TypeError, so if you are seeing it, it means that the program
+  | you are using is not correctly handling this case.
+  |  
+  | On PyPy, though, it always raises TypeError.  Before looking for
+  | alternatives, please take a moment to read the following explanation as
+  | to why it is the case.  What you are looking for may not be possible.
+  |  
+  | A memory profiler using this function is most likely to give results
+  | inconsistent with reality on PyPy.  It would be possible to have
+  | sys.getsizeof() return a number (with enough work), but that may or
+  | may not represent how much memory the object uses.  It doesn't even
+  | make really sense to ask how much *one* object uses, in isolation
+  | with the rest of the system.  For example, instances have maps,
+  | which are often shared across many instances; in this case the maps
+  | would probably be ignored by an implementation of sys.getsizeof(),
+  | but their overhead is important in some cases if they are many
+  | instances with unique maps.  Conversely, equal strings may share
+  | their internal string data even if they are different objects---or
+  | empty containers may share parts of their internals as long as they
+  | are empty.  Even stranger, some lists create objects as you read
+  | them; if you try to estimate the size in memory of range(10**6) as
+  | the sum of all items' size, that operation will by itself create one
+  | million integer objects that never existed in the first place.
+
+<!--EndFragment-->
+
+```
+
+### Expected Behavior
+
+Here's an example of avoiding the usage of getsizeof elsewhere in pandas:
+
+https://github.com/pandas-dev/pandas/blob/main/pandas/core/indexes/multi.py#L1266-L1267
+
+### Installed Versions
+
+<details>
+
+To replicate this bug use mambaforge-pypy
+
+</details>
+","{'url': 'https://api.github.com/repos/pandas-dev/pandas/issues/46176/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}",https://api.github.com/repos/pandas-dev/pandas/issues/46176/timeline,
+2,https://api.github.com/repos/pandas-dev/pandas/issues/46175,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46175/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46175/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46175/events,https://github.com/pandas-dev/pandas/pull/46175,1153564804,PR_kwDOAA0YD84zoyGW,46175,PERF: avoid cast in algos.rank,"{'login': 'jbrockmendel', 'id': 8078968, 'node_id': 'MDQ6VXNlcjgwNzg5Njg=', 'avatar_url': 'https://avatars.githubusercontent.com/u/8078968?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jbrockmendel', 'html_url': 'https://github.com/jbrockmendel', 'followers_url': 'https://api.github.com/users/jbrockmendel/followers', 'following_url': 'https://api.github.com/users/jbrockmendel/following{/other_user}', 'gists_url': 'https://api.github.com/users/jbrockmendel/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jbrockmendel/subscriptions', 'organizations_url': 'https://api.github.com/users/jbrockmendel/orgs', 'repos_url': 'https://api.github.com/users/jbrockmendel/repos', 'events_url': 'https://api.github.com/users/jbrockmendel/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jbrockmendel/received_events', 'type': 'User', 'site_admin': False}",[],open,False,,[],,0,2022-02-28T03:08:02Z,2022-02-28T03:08:02Z,,MEMBER,,False,"{'url': 'https://api.github.com/repos/pandas-dev/pandas/pulls/46175', 'html_url': 'https://github.com/pandas-dev/pandas/pull/46175', 'diff_url': 'https://github.com/pandas-dev/pandas/pull/46175.diff', 'patch_url': 'https://github.com/pandas-dev/pandas/pull/46175.patch', 'merged_at': None}","The real goal here is allowing us to use numeric_object_t in the libgroupby rank function, which unblocks avoiding casting in a bunch of groupby ops.","{'url': 'https://api.github.com/repos/pandas-dev/pandas/issues/46175/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}",https://api.github.com/repos/pandas-dev/pandas/issues/46175/timeline,
+3,https://api.github.com/repos/pandas-dev/pandas/issues/46174,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46174/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46174/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46174/events,https://github.com/pandas-dev/pandas/pull/46174,1153468610,PR_kwDOAA0YD84zodR3,46174,PERF: faster corrwith method for pearson and spearman correlation when other is a Series and axis = 0,"{'login': 'fractionalhare', 'id': 10540830, 'node_id': 'MDQ6VXNlcjEwNTQwODMw', 'avatar_url': 'https://avatars.githubusercontent.com/u/10540830?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/fractionalhare', 'html_url': 'https://github.com/fractionalhare', 'followers_url': 'https://api.github.com/users/fractionalhare/followers', 'following_url': 'https://api.github.com/users/fractionalhare/following{/other_user}', 'gists_url': 'https://api.github.com/users/fractionalhare/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/fractionalhare/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/fractionalhare/subscriptions', 'organizations_url': 'https://api.github.com/users/fractionalhare/orgs', 'repos_url': 'https://api.github.com/users/fractionalhare/repos', 'events_url': 'https://api.github.com/users/fractionalhare/events{/privacy}', 'received_events_url': 'https://api.github.com/users/fractionalhare/received_events', 'type': 'User', 'site_admin': False}","[{'id': 8935311, 'node_id': 'MDU6TGFiZWw4OTM1MzEx', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Performance', 'name': 'Performance', 'color': 'a10c02', 'default': False, 'description': 'Memory or execution speed performance'}, {'id': 57296398, 'node_id': 'MDU6TGFiZWw1NzI5NjM5OA==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Algos', 'name': 'Algos', 'color': 'eb6420', 'default': False, 'description': 'Non-arithmetic algos: value_counts, factorize, sorting, isin, clip, shift, diff'}]",open,False,,[],,5,2022-02-28T00:33:26Z,2022-02-28T05:45:16Z,,NONE,,False,"{'url': 'https://api.github.com/repos/pandas-dev/pandas/pulls/46174', 'html_url': 'https://github.com/pandas-dev/pandas/pull/46174', 'diff_url': 'https://github.com/pandas-dev/pandas/pull/46174.diff', 'patch_url': 'https://github.com/pandas-dev/pandas/pull/46174.patch', 'merged_at': None}","## Description of Changes
+
+This PR modifies the `corrwith` method defined in pandas/core/frame.py to be faster when all of the following conditions are met:
+
+- the `axis` argument is set to 0
+- the `other` argument is a Pandas Series object
+- the `method` argument is equal to ""pearson"" OR ""spearman""
+
+to replace the row-wise `.apply()` with column-wise iteration on NumPy arrays and the correlation functions implemented in NumPy. If not all of those conditions are met, the method falls back to its existing functionality with no performance change.
+
+When `method` = ""pearson"", this change reduces execution time by 40 - 50% on small and large DataFrame objects.
+
+When `method` = ""spearman"", this change reduces execution time by 70 - 80% on small and large DataFrame objects.
+
+This change maintains robustness to nulls despite the fact that `np.corrcoef()` is not by masking the null values across both cross objects when iterating the vectors. It returns accurate results.
+
+## Testing Environment & Performance Assessment
+
+My testing environment is as follows:
+
+- Hardware: MacBook Pro (16-inc, 2021) with Apple M1 Max Chip and 64GB RAM
+- OS: macOS Monterey v12.2
+- Python: 3.8.12
+- Pandas: v1.41 (Control, Unmodified) and v1.5.0.dev (Self-Built Test)
+- NumPy: v1.22.2
+- Installer/Package Manager: Anaconda3 (miniforge3 for Apple Silicon/arm64)
+
+My test script was the following:
+
+```
+import timeit
+import numpy as np
+import pandas as pd
+
+pearson_results = np.array([])
+spearman_results = np.array([])
+num_tests = 10
+num_runs = 10
+
+for k in range(num_tests):
+    print(f'Running test {k + 1}...')
+    data = np.random.uniform(-1, 1, size=(100, 50000))
+    df = pd.DataFrame(data)
+    df.columns = [str(c) for c in df.columns]
+    pearson_time = timeit.timeit(""df.corrwith(df['0'], axis=0, method='pearson')"", ""from __main__ import df"", number=num_runs, timer=timeit.default_timer)
+    spearman_time = timeit.timeit(""df.corrwith(df['0'], axis=0, method='spearman')"", ""from __main__ import df"", number=num_runs, timer=timeit.default_timer)
+    pearson_results = np.append(pearson_results, pearson_time)
+    spearman_results = np.append(spearman_results, spearman_time)
+
+print(f'Average Pearson Correlation Time Across {num_tests} DataFrames with {num_runs} runs each: {pearson_results.mean() / num_runs}')
+print(f'Average Spearman Correlation Time Across {num_tests} DataFrames {num_runs} runs each: {spearman_results.mean() / num_runs}')
+```
+
+First I created a fresh conda environment with the current stable version of Pandas (v1.41). For a DataFrame with 100 rows and 50,000 columns, using unmodified `.corr()` with `method=""pearson""` took approximately 3.0697 seconds on average across 10 runs each on 10 different randomly generated DataFrames. With `method=""spearman""`, the same evaluation took approximately 8.5808 seconds on average.
+
+Then I made my changes to my fork of Pandas main and built it in a new Conda environment, then ran the same script.
+For an equivalently sized DataFrame with random numerical data, the modified `.corr()` with `method=""pearson""` took approximately 1.5342 seconds. With `method=""spearman""`, it took approximately 2.0556 seconds.
+
+## Automated Pre-Commit Test Results
+
+I ran `pre-commit run --files pandas/core/frame.py` and had the following results (all passed or skipped):
+
+```
+absolufy-imports................................................................................................Passed
+vulture.........................................................................................................Passed
+black...........................................................................................................Passed
+codespell.......................................................................................................Passed
+debug statements (python).......................................................................................Passed
+fix end of files................................................................................................Passed
+trim trailing whitespace........................................................................................Passed
+cpplint.....................................................................................(no files to check)Skipped
+flake8..........................................................................................................Passed
+isort...........................................................................................................Passed
+pyupgrade.......................................................................................................Passed
+rst ``code`` is two backticks...............................................................(no files to check)Skipped
+rst directives end with two colons..............................................................................Passed
+rst ``inline code`` next to normal text.........................................................................Passed
+Strip unnecessary `# noqa`s.....................................................................................Passed
+flake8-rst..................................................................................(no files to check)Skipped
+Unwanted patterns...............................................................................................Passed
+Check Cython casting is `<type>obj`, not `<type> obj`.......................................(no files to check)Skipped
+Check for backticks incorrectly rendering because of missing spaces.........................(no files to check)Skipped
+Check for unnecessary random seeds in asv benchmarks........................................(no files to check)Skipped
+Check for usage of numpy testing or array_equal.............................................(no files to check)Skipped
+Check for invalid EA testing................................................................(no files to check)Skipped
+Generate pip dependency from conda..........................................................(no files to check)Skipped
+Check flake8 version is synced across flake8, yesqa, and environment.yml....................(no files to check)Skipped
+Validate correct capitalization among titles in documentation...............................(no files to check)Skipped
+Import pandas.array as pd_array in core.........................................................................Passed
+Use bool_t instead of bool in pandas/core/generic.py........................................(no files to check)Skipped
+Ensure pandas errors are documented in doc/source/reference/general_utility_functions.rst...(no files to check)Skipped
+Check for pg8000 not installed on CI for test_pg8000_sqlalchemy_passthrough_error...........(no files to check)Skipped
+Check minimum version of dependencies are aligned...........................................(no files to check)Skipped
+```
+","{'url': 'https://api.github.com/repos/pandas-dev/pandas/issues/46174/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}",https://api.github.com/repos/pandas-dev/pandas/issues/46174/timeline,
+4,https://api.github.com/repos/pandas-dev/pandas/issues/46173,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46173/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46173/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46173/events,https://github.com/pandas-dev/pandas/issues/46173,1153437571,I_kwDOAA0YD85EwA-D,46173,Missing keys in a selector list are matched to None-labeled entries of MultiIndex,"{'login': 'macsakow', 'id': 10297014, 'node_id': 'MDQ6VXNlcjEwMjk3MDE0', 'avatar_url': 'https://avatars.githubusercontent.com/u/10297014?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/macsakow', 'html_url': 'https://github.com/macsakow', 'followers_url': 'https://api.github.com/users/macsakow/followers', 'following_url': 'https://api.github.com/users/macsakow/following{/other_user}', 'gists_url': 'https://api.github.com/users/macsakow/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/macsakow/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/macsakow/subscriptions', 'organizations_url': 'https://api.github.com/users/macsakow/orgs', 'repos_url': 'https://api.github.com/users/macsakow/repos', 'events_url': 'https://api.github.com/users/macsakow/events{/privacy}', 'received_events_url': 'https://api.github.com/users/macsakow/received_events', 'type': 'User', 'site_admin': False}","[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-27T23:07:07Z,2022-02-28T00:02:22Z,,NONE,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+df = pd.DataFrame.from_dict({
+    (""foo"",): [1, 2, 3],
+    (""bar"",): [5, 6, 7],
+    (None,): [8, 9, 0], 
+})
+df[[ (""missingKey"",) ]] # returns the NaN-labeled column [8, 9, 0] instead of raising a KeyError
+```
+
+
+### Issue Description
+
+Given a DataFrame with MultiIndex containing NaN values in its keys, then keys with missing labels on the same level as NaN values will retrieve the NaN-labeled columns if keys are passed in a list.
+
+If multiple missing labels are passed, each of them will retrieve the None column
+```python
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, [(""foo"",), (""bar"",)]]  # returns a DF with two copies of the NaN-labeled [8, 9, 0] column 
+``` 
+
+This behaviour occurs only when selection is done via a list of keys. 
+```python
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, (""foo"",)]  # single key - raises KeyError
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, [(""foo"",)]]  # key in a list - returns [8,9,0]
+```
+
+The same issue occurs for multi-level MultiIndex, as long as missing labels in the selector occur only on the same level as NaN values.
+```python
+pd.DataFrame.from_dict({(None,None): [8, 9, 0]}).loc[:, [(""a"",""a"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,None): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,""b""): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,""a""): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # KeyError, because 2nd level didn't match
+```
+
+`None` can also be replaced with any of `pd.NA`, `np.nan`, `pd.NaT` for the same effect. 
+
+An additional, more complex example, with multiple `None` in index.
+```python
+dataframe = pd.DataFrame.from_dict({
+    (None,None): [1, 2, 3],
+    (None,""a""): [5, 6, 7],
+    (""b"",None): [8, 9, 0],
+})
+
+df[[(""foo"", ""bar"")]] # returns [1,2,3]
+df[[(""foo"", ""a"")]] # returns [5,6,7]
+df[[(""b ""foo"")]] # returns [8,9,0]
+df[[(""b"",""a"")]] # raises KeyError!
+```
+Interestingly enough, if `[(""a"", ""b"")]` is used to select from this DF, a KeyError *will* be raised, instead of matching it to (None, None).
+
+
+### Expected Behavior
+
+A KeyError should be raised, as it would be if the key with missing label was not wrapped in a list.
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.8.10.final.0
+python-bits      : 64
+OS               : Linux
+OS-release       : 5.13.0-27-generic
+Version          : #29~20.04.1-Ubuntu SMP Fri Jan 14 00:32:30 UTC 2022
+machine          : x86_64
+processor        : x86_64
+byteorder        : little
+LC_ALL           : None
+LANG             : en_GB.UTF-8
+LOCALE           : en_GB.UTF-8
+
+pandas           : 1.4.1
+numpy            : 1.22.2
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 20.0.2
+setuptools       : 44.0.0
+Cython           : None
+pytest           : None
+hypothesis       : None
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : 4.6.3
+html5lib         : 1.0.1
+pymysql          : None
+psycopg2         : None
+jinja2           : 2.11.3
+IPython          : 8.0.0
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : None
+gcsfs            : None
+matplotlib       : 3.4.1
+numba            : None
+numexpr          : None
+odfpy            : None
+openpyxl         : None
+pandas_gbq       : None
+pyarrow          : None
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : None
+sqlalchemy       : None
+tables           : None
+tabulate         : None
+xarray           : None
+xlrd             : None
+xlwt             : None
+zstandard        : None
+
+</details>
+","{'url': 'https://api.github.com/repos/pandas-dev/pandas/issues/46173/reactions', 'total_count': 0, '+1': 0, '-1': 0, 'laugh': 0, 'hooray': 0, 'confused': 0, 'heart': 0, 'rocket': 0, 'eyes': 0}",https://api.github.com/repos/pandas-dev/pandas/issues/46173/timeline,
